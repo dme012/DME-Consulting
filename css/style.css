@@ -91,3 +91,24 @@ header {
     line-height: 37px;
 }
 
+/* body */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.services {
+    text-align: center;
+}
+
+.services p {
+    font-size: 0.875rem;
+}
+
+.services p::after {
+    content: "●";
+}
+
+.services p::before {
+    content: "●";
+}
