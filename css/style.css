@@ -101,14 +101,48 @@ header {
     text-align: center;
 }
 
-.services p {
+.services span {
     font-size: 0.875rem;
 }
 
-.services p::after {
+.services span::after, .services span::before {
     content: "●";
+    margin: 0px 10px;
 }
 
-.services p::before {
-    content: "●";
+.services h2 {
+    font-size: 2.25rem;
+    margin: 10px auto 40px auto;
+}
+
+.service-item-container {
+    display: flex;
+    background: linear-gradient(98.8deg, #22605C -100.67%, #34B0A9 100.67%);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.service-item {
+    width: 390px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.service-item p {
+    width: 250px;
+    margin: 0px auto 65px auto;
+}
+
+.service-cta {
+    font-size: 0.875rem;
+    background: #E26161;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 230px;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -115px;
 }
