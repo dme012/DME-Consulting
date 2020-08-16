@@ -61,7 +61,7 @@ header {
     width: 180px;
 }
 
-.hero-cta-btn, .about-cta-btn {
+.hero-cta-btn, .about-cta-btn, button[type=submit] {
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -161,7 +161,7 @@ header {
 .about-section {
     display: flex;
     width: 1170px;
-    margin: 0 auto;
+    margin: 0 auto 90px auto;
 }
 
 .about-content {
@@ -202,4 +202,52 @@ header {
 
 .cta-right-arrow-teal {
     color: #34B0A9;
+}
+
+/* Free Consultation */
+.free-consultation-section {
+    height: 300px;
+    background: url("../images/free-consultation.png") no-repeat;
+}
+
+.free-consultation-section p {
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.form-container {
+    width: 670px;
+    height: 60px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=url], input[type=email] {
+    width: 250px;
+    border: none;
+}
+
+input[type=url] {
+    border-right: 1px solid grey;
+    margin-right: 10px;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: center;
+}
+
+button[type=submit] {
+    background: #34B0A9;
+    padding: 14px 0px 14px 16px;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
 }
