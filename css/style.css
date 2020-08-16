@@ -57,11 +57,11 @@ header {
     font-size: 1.5rem;
 }
 
-.hero-cta-wrapper {
+.hero-cta-wrapper, .about-cta-wrapper {
     width: 180px;
 }
 
-.hero-cta-btn {
+.hero-cta-btn, .about-cta-btn {
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -100,7 +100,7 @@ header {
 .services-section {
     background-image: url("../images/dot-grid.png");
     background-repeat: repeat;
-    padding: 60px 0px;
+    padding: 60px 0px 100px 0px;
 }
 
 .services {
@@ -156,4 +156,50 @@ header {
     bottom: -16px;
     left: 50%;
     margin-left: -115px;
+}
+
+.about-section {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.about-content {
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 90px;
+}
+
+.about-us::before {
+    content: "●";
+    margin-right: 10px;
+}
+
+.about-us {
+    font-size: 0.875rem;
+}
+
+.about-content h2 {
+    font-size: 2.25rem;
+    margin-top: 10px;
+}
+
+.about-sub-head {
+    font-size: 1.375rem;
+    margin: 0;
+}
+
+.about-cta-btn span {
+    line-height: 45px;
+    margin-left: 23px;
+}
+
+.about-cta-btn {
+    background: #34B0A9;
+}
+
+.cta-right-arrow-teal {
+    color: #34B0A9;
 }
