@@ -4,7 +4,7 @@ header {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.header-container {
     width: 1670px;
     margin: 0 auto;
     padding: 30px 0px;
@@ -97,6 +97,12 @@ header {
     margin: 0 auto;
 }
 
+.services-section {
+    background-image: url("../images/dot-grid.png");
+    background-repeat: repeat;
+    padding: 60px 0px;
+}
+
 .services {
     text-align: center;
 }
@@ -117,16 +123,21 @@ header {
 
 .service-item-container {
     display: flex;
-    background: linear-gradient(98.8deg, #22605C -100.67%, #34B0A9 100.67%);
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(145deg, #22605C, #34B0A9);
+    box-shadow: 30px 30px 65px rgba(52, 176, 169, 0.3);
     border-radius: 20px;
-    padding-top: 50px;
 }
 
 .service-item {
     width: 390px;
     color: #FFFFFF;
     position: relative;
+    padding-top: 50px;
+    border-right: 1px solid rgba(255,255,255,.3);
+}
+
+.service-item:last-child {
+    border-right: none;
 }
 
 .service-item p {
@@ -137,7 +148,7 @@ header {
 .service-cta {
     font-size: 0.875rem;
     background: #E26161;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(226, 97, 97, 0.3);
     border-radius: 30px;
     width: 230px;
     padding: 10px 0px;
