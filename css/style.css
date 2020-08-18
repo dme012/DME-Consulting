@@ -217,7 +217,7 @@ header {
     color: #FFFFFF;
     font-size: 3rem;
     text-align: center;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 .form-container {
@@ -293,4 +293,78 @@ button[type=submit] {
 .cta-right-arrow-consultation::before {
     content: "→";
     line-height: 37px;
+}
+
+/* footer styles */
+.footer-section {
+    background: linear-gradient(290deg, #34B0A9 0%, #22605C 56.16%);
+}
+
+.footer-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 90px;
+    justify-content: space-between;
+
+}
+
+.footer-brand .footer-social {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.footer-social>li {
+    list-style: none;
+    margin: 0px 20px 0px 0px;
+}
+
+.footer-nap-item {
+    display: flex;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.footer-nap-item img {
+    margin-right: 10px;
+}
+
+.footer-nap-item p {
+    margin: 0;
+}
+
+.footer-title {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer-menu-list {
+    padding: 0;    
+}
+
+.footer-menu-list li {
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.footer-menu-list li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-form input {
+    margin: 0;
+}
+
+.copyright {
+    width: 1170px;
+    margin: 0 auto;
 }
