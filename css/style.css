@@ -306,13 +306,14 @@ button[type=submit] {
     display: flex;
     padding-top: 90px;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
 .footer-brand .footer-social {
     display: flex;
     justify-content: flex-start;
     padding: 0;
+    flex-grow: 1;
 }
 
 .footer-social>li {
@@ -367,4 +368,12 @@ button[type=submit] {
 .copyright {
     width: 1170px;
     margin: 0 auto;
+}
+
+.footer-brand, .footer-menu, .footer-contact {
+    flex: 1;
+}
+
+.copyright {
+    flex: 1 0 100%;
 }
