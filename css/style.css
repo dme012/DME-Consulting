@@ -361,19 +361,35 @@ button[type=submit] {
     flex-direction: column;
 }
 
-.footer-contact-form input {
-    margin: 0;
+.footer-contact-form input, textarea {
+    margin: 0px 0px 10px 0px;
+    width: 80%;
+    padding: 5px 0px 5px 5px;
+    color: #22605C;
+    border-radius: 5px;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+.footer-contact-form input:last-child {
+    background-color: #22605C;
+    color: white;
+    width: 50%;
+    padding: 10px 0px;
 }
 
 .copyright {
-    width: 1170px;
-    margin: 0 auto;
+    /* width: 1170px; */
+    flex: 1 0 100%;
+    margin: 50px 0px;
+    color: #FFFFFF;
+    border-top: 1px solid rgba(255,255,255, .3);
+    padding-top: 20px;
 }
 
 .footer-brand, .footer-menu, .footer-contact {
     flex: 1;
-}
-
-.copyright {
-    flex: 1 0 100%;
 }
